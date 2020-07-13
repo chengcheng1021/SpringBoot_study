@@ -9,5 +9,9 @@
 <body>
     <!-- 所有的 html 元素都可以被 thymeleaf 替换接管：th:元素名 -->
     <div th:text="${msg}"></div>
+    <div th:utext="${msg}"></div>
+
+    <h3 th:each="user:${users}" th:text="${user}"></h3>
+    <h3 th:each="user:${users}">[[ ${user} ]]</h3>
 </body>
 </html>
