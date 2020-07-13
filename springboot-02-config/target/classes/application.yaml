@@ -1,5 +1,5 @@
 person:
-  name: qinjiang
+  name: qinjiang@qq.com
   age: ${random.int}
   happy: false
   birth: 2019/11/02
@@ -11,3 +11,7 @@ person:
   dog:
     name: ${person.hello:hello}
     age: 3
+
+dog:
+  first-name: 小河
+  age: 3
