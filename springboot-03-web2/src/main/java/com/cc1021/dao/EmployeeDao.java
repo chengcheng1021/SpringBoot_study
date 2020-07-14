@@ -2,6 +2,7 @@ package com.cc1021.dao;
 
 import com.cc1021.pojo.Department;
 import com.cc1021.pojo.Employee;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
 
 import java.util.Collection;
@@ -18,6 +19,7 @@ public class EmployeeDao {
     private static Map<Integer, Employee> employees = null;
 
     // 员工有所属的部门
+    @Autowired
     private DepartmentDao departmentDao;
 
     static {
