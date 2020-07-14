@@ -16,12 +16,16 @@
 		<form class="form-signin" th:action="@{/user/login}">
 			<img class="mb-4" th:src="@{/img/bootstrap-solid.svg}" alt="" width="72" height="72">
 			<h1 class="h3 mb-3 font-weight-normal" th:text="#{login.tip}"></h1>
+
+			<!-- 如果message值为空，就不显示消息 -->
+			<p style="color: #ff0000;" th:text="${msg}" th:if="${not #strings.isEmpty(msg)}"></p>
+
 			<input type="text" name="username" class="form-control" th:placeholder="#{login.username}" required="" autofocus="">
 			<input type="password" name="password" class="form-control" th:placeholder="#{login.password}" required="">
 			<div class="checkbox mb-3">
 				<label>
-          <input type="checkbox"> [[ #{login.remember} ]]
-        </label>
+          			<input type="checkbox"> [[ #{login.remember} ]]
+        		</label>
 			</div>
 			<button class="btn btn-lg btn-primary btn-block" type="submit">[[ #{login.btn} ]]</button>
 			<p class="mt-5 mb-3 text-muted">© 2017-2018</p>
