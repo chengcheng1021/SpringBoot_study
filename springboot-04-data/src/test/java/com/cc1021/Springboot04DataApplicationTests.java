@@ -25,7 +25,6 @@ class Springboot04DataApplicationTests {
 
         //关闭
         connection.close();
-
     }
 
 }
