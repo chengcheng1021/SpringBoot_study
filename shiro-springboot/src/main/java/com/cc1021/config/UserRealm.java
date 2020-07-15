@@ -1,11 +1,10 @@
 package com.cc1021.config;
 
-import org.apache.shiro.authc.AuthenticationException;
-import org.apache.shiro.authc.AuthenticationInfo;
-import org.apache.shiro.authc.AuthenticationToken;
+import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
+import org.apache.shiro.subject.Subject;
 
 /**
  * 自定义的 UserRealm
@@ -32,6 +31,18 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken authenticationToken) throws AuthenticationException {
         System.out.println("执行了=>认证 doGetAuthenticationInfo");
-        return null;
+
+        // 用户名，密码～
+        String name = "root";
+        String password = "123456";
+
+        UsernamePasswordToken userToken = (UsernamePasswordToken) authenticationToken;
+
+        if (!userToken.getUsername().equals(name)) {
+            return null;    // 抛出异常 UnknownAccountException
+        }
+
+        // 密码认证，shiro做
+        return new SimpleAuthenticationInfo("", password, "");
     }
 }
