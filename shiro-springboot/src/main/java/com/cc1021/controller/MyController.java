@@ -23,4 +23,9 @@ public class MyController {
         return "user/update";
     }
 
+    @RequestMapping("/toLogin")
+    public String toLogin() {
+        return "login";
+    }
+
 }
