@@ -2,22 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c780e598-7b92-4227-a982-e847fad1245e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/controller/RouteController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/qinjiang/css/qinstyle.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/qinjiang/js/jquery-3.1.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/qinjiang/js/semantic.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level1/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level1/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level1/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level2/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level2/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level2/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level3/1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level3/2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/level3/3.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_2_3_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_5_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_5_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_5_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/config/SecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
@@ -72,6 +61,9 @@
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/springboot-01-helloworld.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-01-helloworld/springboot-01-helloworld.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-02-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-02-config/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-03-web2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-03-web2/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/springboot-06-security.iml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot-06-security.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,13 +88,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="restartRequiresConfirmation" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -130,11 +128,49 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594779293877</updated>
-      <workItem from="1594779299025" duration="1703000" />
+      <workItem from="1594779299025" duration="5353000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="611" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1594784367063">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="611" y="148" key="#com.intellij.ide.util.MemberChooser/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784367063" />
+    <state width="1424" height="242" key="GridCell.Tab.0.bottom" timestamp="1594784608086">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608086" />
+    <state width="1424" height="242" key="GridCell.Tab.0.center" timestamp="1594784608085">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608085" />
+    <state width="1424" height="242" key="GridCell.Tab.0.left" timestamp="1594784608084">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608084" />
+    <state width="1424" height="242" key="GridCell.Tab.0.right" timestamp="1594784608085">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608085" />
+    <state width="1424" height="242" key="GridCell.Tab.1.bottom" timestamp="1594784608899">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.1.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608899" />
+    <state width="1424" height="242" key="GridCell.Tab.1.center" timestamp="1594784608898">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.1.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608898" />
+    <state width="1424" height="242" key="GridCell.Tab.1.left" timestamp="1594784608898">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.1.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608898" />
+    <state width="1424" height="242" key="GridCell.Tab.1.right" timestamp="1594784608899">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state width="1424" height="242" key="GridCell.Tab.1.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784608899" />
   </component>
 </project>
