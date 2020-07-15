@@ -13,4 +13,14 @@ public class MyController {
         return "index";
     }
 
+    @RequestMapping("/user/add")
+    public String add() {
+        return "user/add";
+    }
+
+    @RequestMapping("/user/update")
+    public String update() {
+        return "user/update";
+    }
+
 }
