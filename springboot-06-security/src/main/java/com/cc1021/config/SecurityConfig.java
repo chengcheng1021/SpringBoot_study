@@ -31,6 +31,11 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
         // 没有权限默认会到登录页面，需要开启登录的页面
         http.formLogin();
+
+        // 注销，开启了注销功能
+        // 防止网站工具：get，post
+        http.csrf().disable();  // 关闭csrf功能
+        http.logout().logoutSuccessUrl("/");
     }
 
     /**
