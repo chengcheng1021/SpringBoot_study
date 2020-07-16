@@ -18,6 +18,24 @@ import java.util.ArrayList;
 @EnableSwagger2 // 开启swagger
 public class SwaggerConfig {
 
+    @Bean
+    public Docket docket1() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("A");
+    }
+
+    @Bean
+    public Docket docket2() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("B");
+    }
+
+    @Bean
+    public Docket docket3() {
+        return new Docket(DocumentationType.SWAGGER_2)
+                .groupName("C");
+    }
+
     /**
      * 配置了 swagger 的 Docker 的 bean实例
      * @return
@@ -33,6 +51,7 @@ public class SwaggerConfig {
 
         return new Docket(DocumentationType.SWAGGER_2)
                 .apiInfo(apiInfo())
+                .groupName("🍊")
                 // enable是否启动swagger，如果为false，则swagger不能在浏览器中访问
                 .enable(flag)
                 .select()
