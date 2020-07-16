@@ -2,8 +2,10 @@ package com.cc1021.config;
 
 import com.cc1021.pojo.User;
 import com.cc1021.service.UserService;
+import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
+import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
@@ -25,7 +27,18 @@ public class UserRealm extends AuthorizingRealm {
     @Override
     protected AuthorizationInfo doGetAuthorizationInfo(PrincipalCollection principalCollection) {
         System.out.println("执行了=>授权 doGetAuthorizationInfo");
-        return null;
+
+        // SimpleAuthorizationInfo
+        SimpleAuthorizationInfo info = new SimpleAuthorizationInfo();
+        info.addStringPermission("user:add");
+
+        // 拿到当前登录的这个对象
+        Subject subject = SecurityUtils.getSubject();
+        User currentUser = (User) subject.getPrincipal();   // 拿到User对象
+
+        // 设置当前用户的权限
+        info.addStringPermission(currentUser.getPerms());
+        return info;
     }
 
     /**
@@ -52,6 +65,6 @@ public class UserRealm extends AuthorizingRealm {
 
         // 可以加密，MD5，MD5盐值加密
         // 密码认证，shiro做
-        return new SimpleAuthenticationInfo("", user.getPwd(), "");
+        return new SimpleAuthenticationInfo(user, user.getPwd(), "");
     }
 }

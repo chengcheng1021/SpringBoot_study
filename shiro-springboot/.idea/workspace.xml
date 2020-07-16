@@ -4,8 +4,13 @@
     <list default="true" id="76aeaa56-1449-41a2-b378-7355022dce3c" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cc1021/config/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/config/ShiroConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/cc1021/config/UserRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/config/UserRealm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cc1021/controller/MyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/controller/MyController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/cc1021/pojo/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/pojo/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cc1021/config/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cc1021/config/ShiroConfig.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/cc1021/config/UserRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cc1021/config/UserRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/cc1021/controller/MyController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cc1021/controller/MyController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" />
@@ -139,7 +144,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594809929947</updated>
-      <workItem from="1594809934986" duration="6077000" />
+      <workItem from="1594809934986" duration="8230000" />
     </task>
     <servers />
   </component>
@@ -151,54 +156,54 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="596" y="181" key="#com.intellij.ide.util.MemberChooser/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594815549200" />
-    <state width="1424" height="301" key="GridCell.Tab.0.bottom" timestamp="1594816629272">
+    <state width="1424" height="242" key="GridCell.Tab.0.bottom" timestamp="1594858948018">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629272" />
-    <state width="1424" height="301" key="GridCell.Tab.0.center" timestamp="1594816629271">
+    <state width="1424" height="242" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948018" />
+    <state width="1424" height="242" key="GridCell.Tab.0.center" timestamp="1594858948017">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629271" />
-    <state width="1424" height="301" key="GridCell.Tab.0.left" timestamp="1594816629271">
+    <state width="1424" height="242" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948017" />
+    <state width="1424" height="242" key="GridCell.Tab.0.left" timestamp="1594858948017">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629271" />
-    <state width="1424" height="301" key="GridCell.Tab.0.right" timestamp="1594816629272">
+    <state width="1424" height="242" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948017" />
+    <state width="1424" height="242" key="GridCell.Tab.0.right" timestamp="1594858948018">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629272" />
-    <state width="1424" height="301" key="GridCell.Tab.1.bottom" timestamp="1594816629176">
+    <state width="1424" height="242" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948018" />
+    <state width="1424" height="242" key="GridCell.Tab.1.bottom" timestamp="1594858948019">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.1.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629176" />
-    <state width="1424" height="301" key="GridCell.Tab.1.center" timestamp="1594816629175">
+    <state width="1424" height="242" key="GridCell.Tab.1.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948019" />
+    <state width="1424" height="242" key="GridCell.Tab.1.center" timestamp="1594858948018">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.1.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629175" />
-    <state width="1424" height="301" key="GridCell.Tab.1.left" timestamp="1594816629175">
+    <state width="1424" height="242" key="GridCell.Tab.1.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948018" />
+    <state width="1424" height="242" key="GridCell.Tab.1.left" timestamp="1594858948018">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.1.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629175" />
-    <state width="1424" height="301" key="GridCell.Tab.1.right" timestamp="1594816629176">
+    <state width="1424" height="242" key="GridCell.Tab.1.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948018" />
+    <state width="1424" height="242" key="GridCell.Tab.1.right" timestamp="1594858948019">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.1.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816629176" />
-    <state width="1424" height="301" key="GridCell.Tab.2.bottom" timestamp="1594816593899">
+    <state width="1424" height="242" key="GridCell.Tab.1.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594858948019" />
+    <state width="1424" height="301" key="GridCell.Tab.2.bottom" timestamp="1594816757277">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.2.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816593899" />
-    <state width="1424" height="301" key="GridCell.Tab.2.center" timestamp="1594816593899">
+    <state width="1424" height="301" key="GridCell.Tab.2.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816757277" />
+    <state width="1424" height="301" key="GridCell.Tab.2.center" timestamp="1594816757277">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.2.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816593899" />
-    <state width="1424" height="301" key="GridCell.Tab.2.left" timestamp="1594816593899">
+    <state width="1424" height="301" key="GridCell.Tab.2.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816757277" />
+    <state width="1424" height="301" key="GridCell.Tab.2.left" timestamp="1594816757277">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.2.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816593899" />
-    <state width="1424" height="301" key="GridCell.Tab.2.right" timestamp="1594816593899">
+    <state width="1424" height="301" key="GridCell.Tab.2.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816757277" />
+    <state width="1424" height="301" key="GridCell.Tab.2.right" timestamp="1594816757277">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="301" key="GridCell.Tab.2.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816593899" />
+    <state width="1424" height="301" key="GridCell.Tab.2.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594816757277" />
     <state x="222" y="77" key="SettingsEditor" timestamp="1594813494630">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
@@ -207,16 +212,5 @@
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="579" y="428" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594813476982" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/cc1021/config/UserRealm.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
