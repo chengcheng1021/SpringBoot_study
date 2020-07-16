@@ -31,4 +31,12 @@ public class HelloController {
     public String hello2(@ApiParam("用户名") String username) {
         return "hello" + username;
     }
+
+    //不是放在类上
+    @ApiOperation("Post测试类")
+    @GetMapping("/postTest")
+    public User postTest(@ApiParam("用户") User user) {
+        int i = 5/0;
+        return user;
+    }
 }
