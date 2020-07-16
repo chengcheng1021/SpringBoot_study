@@ -1,4 +1,4 @@
-package com.cc1021.controller;
+package com.cc1021.swagger.controller;
 
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
