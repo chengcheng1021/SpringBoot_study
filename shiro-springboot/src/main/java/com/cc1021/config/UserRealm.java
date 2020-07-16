@@ -7,6 +7,7 @@ import org.apache.shiro.authc.*;
 import org.apache.shiro.authz.AuthorizationInfo;
 import org.apache.shiro.authz.SimpleAuthorizationInfo;
 import org.apache.shiro.realm.AuthorizingRealm;
+import org.apache.shiro.session.Session;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.apache.shiro.subject.Subject;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -62,6 +63,10 @@ public class UserRealm extends AuthorizingRealm {
         if (user == null) { // 没有这个人
             return null; // 抛出异常 UnknownAccountException
         }
+
+        Subject subject = SecurityUtils.getSubject();
+        Session session = subject.getSession();
+        session.setAttribute("loginUser", user);
 
         // 可以加密，MD5，MD5盐值加密
         // 密码认证，shiro做
