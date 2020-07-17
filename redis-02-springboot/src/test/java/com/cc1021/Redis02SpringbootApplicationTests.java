@@ -1,15 +1,19 @@
 package com.cc1021;
 
+import com.cc1021.pojo.User;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.data.redis.connection.RedisConnection;
 import org.springframework.data.redis.core.RedisTemplate;
 
 @SpringBootTest
 class Redis02SpringbootApplicationTests {
 
     @Autowired
+    @Qualifier("redisTemplate")
     private RedisTemplate redisTemplate;
 
     @Test
@@ -24,6 +28,16 @@ class Redis02SpringbootApplicationTests {
 
         redisTemplate.opsForValue().set("mykey", "chengcheng");
         System.out.println(redisTemplate.opsForValue().get("mykey"))    ;
+    }
+
+    @Test
+    public void test() throws JsonProcessingException {
+
+        User user = new User("cheng", 30);
+        String jsonUser = new ObjectMapper().writeValueAsString(user);
+        redisTemplate.opsForValue().set("user", user);
+        System.out.println(redisTemplate.opsForValue().get("user"));
+
     }
 
 }
