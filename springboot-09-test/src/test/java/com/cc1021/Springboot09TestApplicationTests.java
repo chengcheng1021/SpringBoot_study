@@ -42,7 +42,7 @@ class Springboot09TestApplicationTests {
         MimeMessageHelper helper = new MimeMessageHelper(mimeMessage, true);
 
         helper.setSubject("你好呀，小🐂🍺～plus");
-        helper.setText("<p style='color:red'>这是红色的字</p>", true);
+        helper.setText("<p style='color:red'>收到请回答～</p>", true);
 
         // 附件～
         helper.addAttachment("1.jpg", new File("/Users/chengcheng/Desktop/avatar.jpg"));
