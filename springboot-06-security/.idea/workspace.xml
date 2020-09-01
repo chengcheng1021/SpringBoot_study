@@ -2,7 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c780e598-7b92-4227-a982-e847fad1245e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../shiro-springboot/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/.mvn/wrapper/MavenWrapperDownloader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../shiro-springboot/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../shiro-springboot/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_11_0.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-01-helloworld/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_11_0.xml" beforeDir="false" />
@@ -57,10 +65,6 @@
       <change beforePath="$PROJECT_DIR$/../springboot-02-config/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-02-config/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../springboot-03-web2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../springboot-03-web2/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/cc1021/config/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/cc1021/config/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/views/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/cc1021/config/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/cc1021/config/SecurityConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/views/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/views/login.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,6 +111,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/resources" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.importing" />
   </component>
@@ -136,7 +143,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1594779293877</updated>
-      <workItem from="1594779299025" duration="11789000" />
+      <workItem from="1594779299025" duration="16611000" />
+      <workItem from="1594814778813" duration="11000" />
     </task>
     <servers />
   </component>
@@ -144,45 +152,53 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="205" y="23" key="#Project_Structure" timestamp="1594802531031">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="205" y="23" key="#Project_Structure/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594802531031" />
     <state x="611" y="148" key="#com.intellij.ide.util.MemberChooser" timestamp="1594784367063">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="611" y="148" key="#com.intellij.ide.util.MemberChooser/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594784367063" />
-    <state width="1424" height="242" key="GridCell.Tab.0.bottom" timestamp="1594798932757">
+    <state width="1424" height="242" key="GridCell.Tab.0.bottom" timestamp="1594810358402">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932757" />
-    <state width="1424" height="242" key="GridCell.Tab.0.center" timestamp="1594798932756">
+    <state width="1424" height="242" key="GridCell.Tab.0.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358402" />
+    <state width="1424" height="242" key="GridCell.Tab.0.center" timestamp="1594810358401">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932756" />
-    <state width="1424" height="242" key="GridCell.Tab.0.left" timestamp="1594798932755">
+    <state width="1424" height="242" key="GridCell.Tab.0.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358401" />
+    <state width="1424" height="242" key="GridCell.Tab.0.left" timestamp="1594810358401">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932755" />
-    <state width="1424" height="242" key="GridCell.Tab.0.right" timestamp="1594798932756">
+    <state width="1424" height="242" key="GridCell.Tab.0.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358401" />
+    <state width="1424" height="242" key="GridCell.Tab.0.right" timestamp="1594810358402">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932756" />
-    <state width="1424" height="242" key="GridCell.Tab.1.bottom" timestamp="1594798932759">
+    <state width="1424" height="242" key="GridCell.Tab.0.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358402" />
+    <state width="1424" height="242" key="GridCell.Tab.1.bottom" timestamp="1594810358403">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.1.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932759" />
-    <state width="1424" height="242" key="GridCell.Tab.1.center" timestamp="1594798932758">
+    <state width="1424" height="242" key="GridCell.Tab.1.bottom/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358403" />
+    <state width="1424" height="242" key="GridCell.Tab.1.center" timestamp="1594810358403">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.1.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932758" />
-    <state width="1424" height="242" key="GridCell.Tab.1.left" timestamp="1594798932758">
+    <state width="1424" height="242" key="GridCell.Tab.1.center/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358403" />
+    <state width="1424" height="242" key="GridCell.Tab.1.left" timestamp="1594810358402">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.1.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932758" />
-    <state width="1424" height="242" key="GridCell.Tab.1.right" timestamp="1594798932758">
+    <state width="1424" height="242" key="GridCell.Tab.1.left/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358402" />
+    <state width="1424" height="242" key="GridCell.Tab.1.right" timestamp="1594810358403">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
-    <state width="1424" height="242" key="GridCell.Tab.1.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594798932758" />
+    <state width="1424" height="242" key="GridCell.Tab.1.right/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594810358403" />
     <state x="237" y="52" key="SettingsEditor" timestamp="1594799059289">
       <screen x="0" y="23" width="1680" height="954" />
     </state>
     <state x="237" y="52" key="SettingsEditor/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594799059289" />
+    <state x="41" y="66" width="1604" height="827" key="new project wizard" timestamp="1594803588800">
+      <screen x="0" y="23" width="1680" height="954" />
+    </state>
+    <state x="41" y="66" width="1604" height="827" key="new project wizard/-1208.-1417.3440.1417/0.23.1680.954@0.23.1680.954" timestamp="1594803588800" />
   </component>
 </project>
